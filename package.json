@@ -10,6 +10,12 @@
     "dev": "pnpm --filter web dev",
     "lint": "pnpm -r lint",
     "typecheck": "pnpm -r typecheck",
-    "test": "pnpm -r test"
+    "test": "pnpm -r test",
+    "xrpl:setup": "tsx scripts/xrpl-setup.ts",
+    "xrpl:demo": "tsx scripts/xrpl-demo.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.3",
+    "xrpl": "5.3.0"
   }
 }
